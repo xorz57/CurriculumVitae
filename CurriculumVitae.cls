@@ -103,6 +103,13 @@
 \titleformat{\section}{\Large\bfseries\color{bright_yellow}}{\thesection}{0cm}{}
 
 %==============================================================================
+% Configure titlesec
+%==============================================================================
+
+\titlespacing{\section}{0em}{0em}{0em}
+\titleformat{\section}{\Large\bfseries\color{bright_yellow}}{\thesection}{0em}{}
+
+%==============================================================================
 % Commands
 %==============================================================================
 
@@ -152,11 +159,3 @@
         {\large\bfseries\color{light4}#1}\hfill{\large\bfseries\color{gray_245}#2}\\
         {\color{gray_245}#3}\hfill{\color{gray_245}#4}
 }
-
-%==============================================================================
-% Environments
-%==============================================================================
-
-\newenvironment{cventries}
-    {\begin{itemize}[leftmargin=0cm, rightmargin=0cm]\setlength\itemsep{-0.25em}}
-    {\end{itemize}}
