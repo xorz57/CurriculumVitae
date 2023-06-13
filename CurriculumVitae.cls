@@ -105,11 +105,11 @@
 \titleformat{\section}{\Large\bfseries\color{bright_yellow}}{\thesection}{0cm}{}
 
 %==============================================================================
-% Configure titlesec
+% Configure enumitem
 %==============================================================================
 
-\titlespacing{\section}{0em}{0em}{0em}
-\titleformat{\section}{\Large\bfseries\color{bright_yellow}}{\thesection}{0em}{}
+\setlist{topsep=0em, leftmargin=0em}
+\setitemize{noitemsep,topsep=0em, parsep=0em, partopsep=0em}
 
 %==============================================================================
 % Commands
