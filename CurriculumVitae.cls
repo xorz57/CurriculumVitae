@@ -31,7 +31,9 @@
 % Configure fontspec
 %==============================================================================
 
+\defaultfontfeatures{Ligatures=TeX}
 \setmainfont{Roboto}
+\setsansfont{Roboto}
 \setmonofont{Roboto Mono}
 
 %==============================================================================
