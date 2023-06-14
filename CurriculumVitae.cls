@@ -41,8 +41,8 @@
 % Configure xcolor
 %==============================================================================
 
-\colorlet{cvprimarycolor}{black!90}
-\colorlet{cvsecondarycolor}{black!60}
+\colorlet{cvprimarycolor}{black!95}
+\colorlet{cvsecondarycolor}{gray!95}
 \colorlet{cvaccentcolor}{brown!95}
 
 \colorlet{cvcolor}{cvprimarycolor}
