@@ -41,8 +41,8 @@
 % Configure xcolor
 %==============================================================================
 
-\colorlet{cvprimarycolor}{black}
-\colorlet{cvsecondarycolor}{white}
+\colorlet{cvprimarycolor}{Black}
+\colorlet{cvsecondarycolor}{White}
 \colorlet{cvaccentcolor}{RoyalBlue}
 
 \colorlet{cvcolor}{cvprimarycolor}
