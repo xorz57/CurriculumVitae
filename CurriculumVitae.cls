@@ -15,7 +15,7 @@
 \usepackage{hyperref}
 \usepackage{enumitem}
 \usepackage{parskip}
-\usepackage{xcolor}
+\usepackage[dvipsnames]{xcolor}
 \usepackage{ifthen}
 \usepackage{xparse}
 \usepackage{titlesec}
@@ -43,7 +43,7 @@
 
 \colorlet{cvprimarycolor}{black}
 \colorlet{cvsecondarycolor}{white}
-\colorlet{cvaccentcolor}{brown}
+\colorlet{cvaccentcolor}{RoyalBlue}
 
 \colorlet{cvcolor}{cvprimarycolor}
 \colorlet{cvpagecolor}{cvsecondarycolor}
