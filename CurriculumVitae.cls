@@ -41,9 +41,9 @@
 % Configure xcolor
 %==============================================================================
 
-\colorlet{cvprimarycolor}{black!95}
-\colorlet{cvsecondarycolor}{gray!95}
-\colorlet{cvaccentcolor}{brown!95}
+\colorlet{cvprimarycolor}{black}
+\colorlet{cvsecondarycolor}{white}
+\colorlet{cvaccentcolor}{brown}
 
 \colorlet{cvcolor}{cvprimarycolor}
 \colorlet{cvpagecolor}{cvsecondarycolor}
@@ -58,7 +58,7 @@
 \colorlet{cvaddresscolor}{cvprimarycolor}
 
 \color{cvcolor}
-\pagecolor{white}
+\pagecolor{cvpagecolor}
 
 %==============================================================================
 % Configure hyperref
